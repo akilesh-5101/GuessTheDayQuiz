@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".Quiz_end">
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Comment"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/score_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/comment"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:text="Score: "
+        android:layout_marginTop="90dp" />
+
+    <Button
+        android:id="@+id/start_ag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_x"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="38dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="To start quiz again" />
+</RelativeLayout>
